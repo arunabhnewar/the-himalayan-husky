@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    color: #fff;
+    background-color: #000;
+}
+a {
+    color: #fff;
+    font-weight: 500;
+}
+a:hover {
+    color: #0303e6;
+}
+.husky-text-primary {
+    color: #fff;
+}
+
+/*------------- navbar style------------- */
+
+.header-background {
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    padding-bottom: 70px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;  
+}
+.sticky-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 20px 0px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12,32,59,0.5);
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+    
+}
+.navbar-brand {
+    font-size: 2.1rem;
+}
+.navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 22px;
+}
+.navbar-toggler span + span + span{
+    margin-top: 4px;
+    width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1rem;
+    font-size: 1rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #0303e6;
+}
+.btn {
+    background-color: #0303e6;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem 1.2rem;
+}
+.btn:hover {
+    background-color: aquamarine;
+}
+.heading {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+    margin-top: 200px;
+    margin-bottom: 16px;
+    min-height: 100px;
+}
+
+/*-----------about section--------------------- */
+
+.column-left {
+    min-height: 750px;
+    background-image: url(images/the-himalayan-husky-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll, scroll;
+}
+.column-right .about-title {
+    margin-top: 200px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+.about-text {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/*-----------adventure section--------------------- */
+
+.adventure-title {
+    margin-top: 80px;
+    padding: 5rem 2rem 0rem 5rem;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.adventure-text {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: justify;
+}
+.adventure-right {
+    min-height: 750px;
+    background-image: url(images/the-himalayan-husky-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: scroll, scroll;
+}
+.hiking-title {
+    padding: 1rem 2rem 1rem 5rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.hikking-text {
+    margin-top: 15px;
+    padding: 1rem 2rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: justify;
+}
+.trekking-title {
+    padding: 1rem 2rem 1rem 5rem;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.trekking-text {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+}
+.fas {
+    color: #000;
+    font-size: 2rem;
+}
+.hikking .fas {
+    padding: 3rem 2rem 1rem 5rem;
+}
+.trekking .fas {
+    padding: 3rem 5rem 1rem 5rem;
+}
+
+/*----------family section------------------------ */
+
+.portfolio {
+    min-height: 750px;
+    overflow: hidden;
+}
+.gallery {
+    min-height: 252px;
+    background-position: 0px 0px;
+    background-size: cover;
+    opacity: 1;
+}
+.img-1 {
+    background-image: url(images/the-himalayan-husky-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2 {
+    background-image: url(images/ghost-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-3 {
+    background-image: url(images/max-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-4 {
+    background-image: url(images/ghost-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-5 {
+    background-image: url(images/max-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-6 {
+    background-image: url(images/the-himalayan-husky-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-left-block {
+    width: 100%;
+    left:  0;
+    height: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+.text-left-block .left-center-text {
+    display: table;
+    position: relative;
+    height: 100vh;
+    padding: 0 10%;
+    text-align: left;
+}
+.text-left-block .left-center-text .left-center-part {
+    display: table-cell;
+    vertical-align: middle;
+}
+.text-left-block .left-center-text .left-center-part h2 {
+    font-weight: 600;
+}
+.family-section {
+    padding: 0rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.family-text {
+    padding: 0rem 2rem 1rem 0rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+.block-family {
+    margin: 1rem 0 0;
+}
+.block-family img.family-member {
+    width: 240px;
+}
+.block-family h3 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+.block-family small {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.block-family .family-text {
+    padding: 0rem 3rem 0rem 0rem;
+}
+
+/*----------contact section------------------------ */
+.contact-right {
+    min-height: 750px;
+    background-image: url(images/the-himalayan-husky-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: scroll, scroll;
+}
+.contact-section {
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 600;
+}
+.contact-left .contact-text {
+    padding: 0rem 3rem 0rem 0rem;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+strong {
+    font-weight: 700;
+}
+.phone-mail-link {
+    color: #0303e6;
+    font-weight: 700;
+    text-decoration: none;
+}
+.phone-mail-link:hover {
+    color: #000;
+}
+#contact-form {
+    margin-top: 40px;
+}
+#contact-form .form-control {
+    background: #778899;
+    border: none;
+    border-radius: .4rem;
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    line-height: 1.2;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 1rem;
+    transition: all .2s ease-in-out;
+    text-align: left;
+}
+#contact-form .form-control:hover, #contact-form .form-control:focus{
+    box-shadow: none;
+    background: #808080;
+}
+#contact-form textarea .form-control {
+    min-height: 10rem;
+}
+.sub-text {
+    color: #778899;
+    /* position: relative; */
+    font-size: 0.9rem;
+    right: 5rem;
+}
+.left-center-part p {
+    color: #000;
+    margin-top: 80px;
+}
+.fab {
+    color: #ff0000;
+    font-size: 1.7rem;
+    padding-left: 0.8rem;
+    transition: transform 0.5s;
+}
+.twitter {
+    color: #4169E1;
+}
+.facebook {
+    color: #4169E1;
+}
+.fab:hover {
+    transform: scale(1.3);
+}
+.copyright {
+    /* position: relative; */
+    left: 5rem;
+    bottom: -45px;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 5rem;
+}
